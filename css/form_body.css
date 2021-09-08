@@ -1,0 +1,70 @@
+
+
+/* the whole form body style */
+.form_body_wrapper{
+    margin-top:10px ;
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(200, 200, 200);
+}
+
+/* the first account title */
+.first_account_holder{
+    padding:5px 10px ;
+}
+.first_account_holder h3{
+    margin: 0px;
+}
+
+/*body of the first account section*/
+.width-full{
+    width: 100%;
+    display: flex;
+
+}
+.first_account_body_text{
+    width: 25%;
+}
+
+/* the doted style for the inputs */
+.input_dot{
+    background-color: inherit;
+    width: 85%;
+    border: none;
+    border-bottom: 1px black dashed;
+    outline: none;
+    letter-spacing: 2px;
+}
+.input_dot h4{
+    margin: 0;
+}
+
+.dob_gender_nationality{
+    width: 100%;
+    display: flex;
+}
+
+.dob{
+    width: 450px;;
+}
+.dob h4{
+    width: 100%;
+}
+.gender{
+    width: 45%;
+}
+.gender h4{
+    width: 100%;
+    display: flex;
+}
+.nationality{
+    width: 350px;
+}
+
+
+.Male{
+    margin: 0px 5px 0px 5px;
+}
+.mobile_tel{
+    display: flex;
+    width: 100%;
+}

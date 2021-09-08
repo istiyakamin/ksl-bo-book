@@ -4,16 +4,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css resources -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/head_banner_subhead.css">
+    <link rel="stylesheet" href="./css/form_body.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <!-- title -->
     <title>KSL Bo Book Design</title>
-    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <page size="A4"></page>
-    <page size="A4"></page>
-    <page size="A4" layout="landscape"></page>
-    <page size="A5"></page>
-    <page size="A5" layout="landscape"></page>
-    <page size="A3"></page>
-    <page size="A3" layout="landscape"></page>
+
+
+    <page size="A4">
+        <div class="container">
+            
+            <!-- this is the first head section -->
+            <div class="head_section">
+                
+                
+                <!-- the logo and the address sub section -->
+                <div class="logo_and_add">
+                    <img src="./resourses/icons/logo.png" width="40%" alt="">
+                    <h5 class="font-style-head-light">
+                        TREC Holder of Chittagong Stock Exchange Ltd.
+                    </h5>
+                    <h5 class="font-style-head-light">
+                        TREC Holder No. 056
+                    </h5>
+                </div>
+
+                <!-- the sub section for uploading photo -->
+
+                <div class="photo_upload">
+                    <h6>
+                       Signed Photograph of First Account Holder
+                    </h6> 
+                </div>
+
+                
+
+            </div>
+
+            <!-- the divideing banner separating the head and sub head -->
+
+            <div class="banner">
+
+                <div class="main_banner">
+                    <h4>
+                        COUSTOMER ACCOUNT INFORMATION FORM
+                    </h4>
+                </div>
+
+                <div class="subbanner">
+                    <p>
+                        [FILL UP THE FORM IN CAPITAL LETTERS]
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- sub head section  -->
+            <div class="subheader">
+
+                <!-- the data and client code input sub-section -->
+                <div class="date_client_code">
+                    <h4 class="font-style-general">Date  :   <input type="text" maxlength="8" placeholder="DDMMYYYY" class="input_box"/>    
+                   </h4>
+                   <h4 class="font-style-general">Client Code  :   <input type="text" maxlength="8" class="input_box"/>    
+                   </h4>
+                </div>
+
+
+
+                <!-- Account type and link code input sub-section -->
+                <div class="account_type_link_code">
+                    <div class="account_type">
+                        <h4 class="font-style-general">Account Type: 
+                        </h4>
+                            <div class="cash">
+                                <input class="font-style-general" type="checkbox" name="cash" value="cash">Cash
+
+                            </div>
+                            <div class="margin">
+                                <input class="font-style-general" type="checkbox" name="margin" value="margin">Margin
+
+                            </div>
+                    </div>
+                    <div class="link_code">
+                        <h4 class="font-style-general">Client Code:  <input type="text" maxlength="8" class="input_box"/>    
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- the form body  -->
+            <div class="form_body_wrapper">
+                
+                <!-- first account holder section -->
+                <div class="first_account_holder">
+
+                    <div class="first_account_title">
+
+                        <h3 class="font-style-form-body-title">First Account Holder</h3>
+                    </div>
+
+                    <div class="first_account_body">
+
+                        <h4 class="font-style-general width-full">
+                             <span class="first_account_body_text"> Name of the Customer: </span>
+
+                             <input type="text" name="name" class="input_dot"/>
+
+                        </h4>
+                        <h4 class="font-style-general width-full">
+                             <span class="first_account_body_text"> Father's/Husband's/CEO's (in case of Firm or Company) Name:  </span>
+
+                             <input type="text" name="name" class="input_dot"/>
+
+                        </h4>
+                            
+                        <h4 class="font-style-general width-full">
+                             <span class="first_account_body_text"> Mother's Name:  </span>
+
+                             <input type="text" name="name" class="input_dot"/>
+
+                        </h4>
+                        
+
+                        <div class="dob_gender_nationality">
+                           
+                            <div class="dob">
+
+                                <h4 class="font-style-general width-full">
+                                    <span class="first_account_body_text">Date of Birth: </span>
+       
+                                    <input type="text" maxlength="8" placeholder="DDMMYYYY" class="input_box"/>
+       
+                                </h4>  
+
+                            </div>  
+                            <div class="gender">
+                                    <h4 class="font-style-general">Sex: 
+                                        <div class="Male">
+                                            <input class="font-style-general" type="checkbox" name="Male" value="Male">Male
+            
+                                        </div>
+                                        <div class="female">
+                                            <input class="font-style-general" type="checkbox" name="female" value="female">Female
+            
+                                        </div>
+
+                                    </h4>
+                            </div>
+                            <div class="nationality">
+                                <h4 class="font-style-general width-full">
+                                    <span class="first_account_body_text">Nationality:  </span>
+       
+                                    <input type="text" name="nationality" class="input_dot"/>
+       
+                               </h4>
+                            </div>
+                        </div>
+                        <h4 class="font-style-general"> <span class="first_account_body_text">Present Address: </span> <input type="text" class="input_dot"/></h4>
+                       
+                        <div class="mobile_tel">
+
+                            <h4 class="font-style-general"> <span class="first_account_body_text">Mobile: </span> <input type="text" class="input_dot"/></h4>
+                            <h4 class="font-style-general"> <span class="first_account_body_text">Tel: </span> <input type="text" class="input_dot"/></h4>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </page>
+
 </body>
 </html>

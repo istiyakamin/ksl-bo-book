@@ -1,0 +1,77 @@
+
+  .main_banner{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:20px;
+    background-color: black;
+    color: white;
+  }
+  .main_banner h4{
+    font-family: title_mono;
+    font-size: 1em;
+  }
+
+  .subbanner{
+    margin: 0;
+    font-size: 15px;
+  }
+  .subbanner p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  /* head section */
+  .head_section{
+    display: flex;
+  }
+  .head_section h5
+  {
+    margin: 5px;
+  }
+  .logo_and_add{
+    width: 60%;
+  }
+
+  .photo_upload{
+    width: 16%;
+    margin-left:auto;
+    margin-bottom: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(200, 200, 200);
+    
+  }
+
+  /*Sub head section */
+  .subheader{
+    /* background-color: violet; */
+    display: flex;
+
+    margin-top:10px;
+  }
+  .subheader h4{
+    margin: 0;
+  }
+
+  .account_type_link_code{
+    margin-left: auto;
+  }
+
+  .account_type{
+    display: flex;
+  }
+
+  input{
+    margin: 0px;
+  }

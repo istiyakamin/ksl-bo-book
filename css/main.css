@@ -1,0 +1,55 @@
+@font-face {
+    font-family: title_mono;
+    src: url(../resourses/fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf   );
+  }
+@font-face {
+    font-family: genaral-text-regular;
+    src: url(../resourses/fonts/Urbanist/static/Urbanist-ExtraLight.ttf);
+  }
+@font-face {
+  font-family: general-text-light;
+  src: url(../resourses/fonts/Urbanist/static/Urbanist-Regular.ttf);
+}
+
+@font-face {
+  font-family: general-text-bolder;
+  src: url(../resourses/fonts/Urbanist/static/Urbanist-Bold.ttf);
+}
+
+/* fonts and font styles for the form body and the subhead  */
+  .font-style-general{
+    font-family: genaral-text-regular;
+    font-size: .8em;
+    letter-spacing: 1px;
+    
+  }
+
+/* font and styles for the main head text */
+
+  .font-style-head-light{
+    font-family:general-text-light;
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+
+  /* font and style for form body titles */
+
+  .font-style-form-body-title{
+    font-family: general-text-bolder;
+    font-size: 0.8em;
+  }
+
+  .input_box{
+    background-image: url(../resourses/icons/input.gif);    
+    border: none;
+    font-family: monospace;
+
+    width: 174px;
+    height: 18px;
+    background-size: 20px;
+    font-size: 13px;
+    padding-left: 5px;
+    letter-spacing: 12px;
+    margin-top: 5px;
+    
+  }
