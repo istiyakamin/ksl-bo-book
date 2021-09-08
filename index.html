@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/head_banner_subhead.css">
     <link rel="stylesheet" href="./css/form_body.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/support_classes.css">
     
     <!-- title -->
     <title>KSL Bo Book Design</title>
@@ -19,6 +20,7 @@
 
 
     <page size="A4">
+        
         <div class="container">
             
             <!-- this is the first head section -->
@@ -72,9 +74,9 @@
 
                 <!-- the data and client code input sub-section -->
                 <div class="date_client_code">
-                    <h4 class="font-style-general">Date  :   <input type="text" maxlength="8" placeholder="DDMMYYYY" class="input_box"/>    
+                    <h4 class="font-style-general">Date  :   <input type="text" maxlength="8" placeholder="DDMMYYYY" class="input_box_dob m-5"/>    
                    </h4>
-                   <h4 class="font-style-general">Client Code  :   <input type="text" maxlength="8" class="input_box"/>    
+                   <h4 class="font-style-general">Client Code  :   <input type="text" maxlength="8" class="input_box_dob"/>    
                    </h4>
                 </div>
 
@@ -82,20 +84,20 @@
 
                 <!-- Account type and link code input sub-section -->
                 <div class="account_type_link_code">
-                    <div class="account_type">
-                        <h4 class="font-style-general">Account Type: 
-                        </h4>
-                            <div class="cash">
-                                <input class="font-style-general" type="checkbox" name="cash" value="cash">Cash
+                    <div class="account_type m-5">
+                            <h4 class="font-style-general">Account Type: </h4>
+                            
+                            <div class="cash font-style-general">
+                                <input type="checkbox" name="cash" value="cash">  Cash
 
                             </div>
-                            <div class="margin">
-                                <input class="font-style-general" type="checkbox" name="margin" value="margin">Margin
-
+                           
+                            <div class="margin font-style-general">
+                                <input class="font-style-general" type="checkbox" name="margin" value="margin">  Margin
                             </div>
                     </div>
                     <div class="link_code">
-                        <h4 class="font-style-general">Client Code:  <input type="text" maxlength="8" class="input_box"/>    
+                        <h4 class="font-style-general">Client Code:  <input type="text" maxlength="8" class="input_box_dob"/>    
                         </h4>
                     </div>
                 </div>
@@ -115,66 +117,105 @@
                     <div class="first_account_body">
 
                         <h4 class="font-style-general width-full">
-                             <span class="first_account_body_text"> Name of the Customer: </span>
+                             <span class="first_account_body_text col-18"> Name of the Customer:</span>
 
-                             <input type="text" name="name" class="input_dot"/>
+                             <input type="text" name="name" class="input_dot  col-82"/>
 
                         </h4>
                         <h4 class="font-style-general width-full">
-                             <span class="first_account_body_text"> Father's/Husband's/CEO's (in case of Firm or Company) Name:  </span>
+                             <span class="col-49"> Father's /Husband's / CEO's (in case of Firm or Company) Name:  </span>
 
-                             <input type="text" name="name" class="input_dot"/>
+                             <input type="text" name="name" class="input_dot col-51"/>
 
                         </h4>
                             
                         <h4 class="font-style-general width-full">
-                             <span class="first_account_body_text"> Mother's Name:  </span>
+                             <span class="first_account_body_text col-13"> Mother's Name:</span>
 
-                             <input type="text" name="name" class="input_dot"/>
+                             <input type="text" name="name" class="input_dot col-95"/>
 
                         </h4>
                         
 
-                        <div class="dob_gender_nationality">
+                        <div class="dob_gender_nationality width-full">
                            
-                            <div class="dob">
+                            <div class="dob col-33">
 
                                 <h4 class="font-style-general width-full">
                                     <span class="first_account_body_text">Date of Birth: </span>
        
-                                    <input type="text" maxlength="8" placeholder="DDMMYYYY" class="input_box"/>
+                                    <input type="text" maxlength="8" placeholder="DDMMYYYY" class="input_box_dob ml-5"/>
        
                                 </h4>  
 
                             </div>  
-                            <div class="gender">
-                                    <h4 class="font-style-general">Sex: 
-                                        <div class="Male">
-                                            <input class="font-style-general" type="checkbox" name="Male" value="Male">Male
+                            <div class="gender col-25 ml-20">
+                                    <h4 class="font-style-general width-full">Sex: 
+                                        <div class="Male ml-5 mr-5">
+                                            <input class="font-style-general"  type="checkbox" name="Male" value="Male"> Male
             
                                         </div>
                                         <div class="female">
-                                            <input class="font-style-general" type="checkbox" name="female" value="female">Female
+                                            <input class="font-style-general" type="checkbox" name="female" value="female"> Female
             
                                         </div>
 
                                     </h4>
                             </div>
-                            <div class="nationality">
+                            <div class="nationality col-45">
                                 <h4 class="font-style-general width-full">
-                                    <span class="first_account_body_text">Nationality:  </span>
+                                    <span class="first_account_body_text col-20">Nationality:  </span>
        
-                                    <input type="text" name="nationality" class="input_dot"/>
+                                    <input type="text" name="nationality" class="input_dot col-80 pl-5"/>
        
                                </h4>
                             </div>
                         </div>
-                        <h4 class="font-style-general"> <span class="first_account_body_text">Present Address: </span> <input type="text" class="input_dot"/></h4>
-                       
-                        <div class="mobile_tel">
+                        
+                        <h4 class="font-style-general width-full">
+                            <span class="first_account_body_text col-13">Present Address: </span> 
+                            <input type="text" class="input_dot col-87"/>
+                        </h4>
+                        
+                        <div class="mobile_tel width-full">
+                                
+                            <h4 class="font-style-general width-full "> 
+                                <span class="first_account_body_text col-12">Mobile: </span>
+                                <input type="text" name="phone" class="input_dot col-87"/>
+                            </h4>
 
-                            <h4 class="font-style-general"> <span class="first_account_body_text">Mobile: </span> <input type="text" class="input_dot"/></h4>
-                            <h4 class="font-style-general"> <span class="first_account_body_text">Tel: </span> <input type="text" class="input_dot"/></h4>
+                            <h4 class="font-style-general width-full "> 
+                                <span class="first_account_body_text col-10">Tel.# : </span> 
+                                <input type="text" name="phone" class="input_dot col-90"/>
+                            </h4>
+
+                        </div> 
+                        <div class="email_tel width-full">
+                                
+                            <h4 class="font-style-general width-full pr-5"> 
+                                <span class="first_account_body_text col-10">Tel.#: </span>
+                                <input type="text" name="phone" class="input_dot col-90"/>
+                            </h4>
+
+                            <h4 class="font-style-general width-full "> 
+                                <span class="first_account_body_text col-15">E-mail ID: </span> 
+                                <input type="text" name="email" class="input_dot col-85"/>
+                            </h4>
+
+                        </div> 
+                        <div class="occupation_etin width-full">
+                                
+                            <h4 class="font-style-general width-full pr-5"> 
+                                <span class="first_account_body_text col-20">Occupation :</span>
+                                <input type="text" name="occupation" class="input_dot col-80"/>
+                            </h4>
+
+                            <h4 class="font-style-general width-full">
+                                <span class="first_account_body_text mr-5">E-Tin # </span>
+
+                                <input type="text" maxlength="12" name="Etin" class="input_box_Etin ml-5"/>
+   
+                            </h4>  
 
                         </div>
 

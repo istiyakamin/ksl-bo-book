@@ -71,7 +71,11 @@
   .account_type{
     display: flex;
   }
+  .account_type div{
+    margin: 0px 5px;
+    font-weight: bold;
+  }
 
-  input{
-    margin: 0px;
+  .cash{
+    margin-right: 5px;
   }

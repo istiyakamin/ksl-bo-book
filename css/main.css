@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding:0; 
+ }
+
 @font-face {
     font-family: title_mono;
     src: url(../resourses/fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf   );
@@ -19,7 +24,7 @@
 /* fonts and font styles for the form body and the subhead  */
   .font-style-general{
     font-family: genaral-text-regular;
-    font-size: .8em;
+    font-size: 10px;
     letter-spacing: 1px;
     
   }
@@ -36,20 +41,33 @@
 
   .font-style-form-body-title{
     font-family: general-text-bolder;
-    font-size: 0.8em;
+    font-size: 10px;
   }
 
-  .input_box{
+  .input_box_dob{
     background-image: url(../resourses/icons/input.gif);    
     border: none;
     font-family: monospace;
 
-    width: 174px;
-    height: 18px;
-    background-size: 20px;
-    font-size: 13px;
+    width: 130px;
+    height: 15px;
+    background-size: 15px;
+    font-size: 10px;
     padding-left: 5px;
-    letter-spacing: 12px;
-    margin-top: 5px;
+    letter-spacing: 9px;
     
   }
+
+  .input_box_Etin{
+    background-image: url(../resourses/icons/input.gif);    
+    border: none;
+    font-family: monospace;
+
+    width: 190px;
+    height: 15px;
+    background-size: 15px;
+    font-size: 10px;
+    padding-left: 5px;
+    letter-spacing: 9px;
+  }
+
