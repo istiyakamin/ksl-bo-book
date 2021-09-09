@@ -33,7 +33,7 @@
 
   .font-style-head-light{
     font-family:general-text-light;
-    font-size: 1em;
+    font-size: 12px;
     letter-spacing: 1px;
   }
 
@@ -64,6 +64,32 @@
     font-family: monospace;
 
     width: 190px;
+    height: 15px;
+    background-size: 15px;
+    font-size: 10px;
+    padding-left: 5px;
+    letter-spacing: 9px;
+  }
+
+  .input_box_Account_numb{
+    background-image: url(../resourses/icons/input.gif);    
+    border: none;
+    font-family: monospace;
+
+    width: 205px;
+    height: 15px;
+    background-size: 15px;
+    font-size: 10px;
+    padding-left: 5px;
+    letter-spacing: 9px;
+  }
+
+  .input_box_Routing_numb{
+    background-image: url(../resourses/icons/input.gif);    
+    border: none;
+    font-family: monospace;
+
+    width: 145px;
     height: 15px;
     background-size: 15px;
     font-size: 10px;

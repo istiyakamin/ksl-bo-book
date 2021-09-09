@@ -55,6 +55,9 @@
 .col-40{
     width: 40%;
 }
+.col-41{
+    width: 41%;
+}
 .col-45{
     width: 45%;
 }
@@ -66,6 +69,9 @@
 }
 .col-51{
     width:51%;
+}
+.col-59{
+    width: 59%;
 }
 .col-62{
     width: 62%;
@@ -102,6 +108,9 @@
 }
 .col-87{
     width: 87%;
+}
+.col-88{
+    width: 88%;
 }
 .col-90{
     width:90%;
@@ -191,4 +200,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .justify_space_between{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
   }

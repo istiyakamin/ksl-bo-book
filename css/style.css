@@ -23,7 +23,7 @@ body {
     width: 90%;
     height: 90%;
     margin: auto;
-    transform: translateY(5%);
+    transform: translateY(3%);
   }
 
   @media print {
