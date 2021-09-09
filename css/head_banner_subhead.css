@@ -28,13 +28,7 @@
 
 
   /* head section */
-  .head_section{
-    display: flex;
-  }
-  .head_section h5
-  {
-    margin: 5px;
-  }
+
   .logo_and_add{
     width: 60%;
   }
@@ -47,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
     border:solid 2px rgb(103, 109, 109);
     background-color: rgb(200, 200, 200);
@@ -60,11 +55,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    text-align: center;
+
+
     border:solid 2px rgb(103, 109, 109);
     background-color: rgb(200, 200, 200);
   }
-
   /*Sub head section */
   .subheader{
     /* background-color: violet; */
