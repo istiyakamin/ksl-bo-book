@@ -43,6 +43,11 @@
     font-family: general-text-bolder;
     font-size: 10px;
   }
+  
+  .font-style-form-body-title-big{
+    font-family: general-text-bolder;
+    font-size: 12px;
+  }
 
   .input_box_dob{
     background-image: url(../resourses/icons/input.gif);    

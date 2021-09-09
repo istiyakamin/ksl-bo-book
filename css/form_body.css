@@ -1,7 +1,6 @@
 
 /* the whole form body style */
 .form_body_wrapper{
-    margin-top:10px ;
     border:solid 2px rgb(103, 109, 109);
     background-color: rgb(200, 200, 200);
 }
@@ -35,3 +34,8 @@ table, td, th {
     width: 100%;
     border-collapse: collapse;
   }
+  
+*::placeholder {
+    /* modern browser */
+    color: black;
+}
