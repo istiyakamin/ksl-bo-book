@@ -40,7 +40,7 @@
   }
 
   .photo_upload{
-    width: 16%;
+    width: 15%;
     margin-left:auto;
     margin-bottom: 5px;
     
@@ -51,6 +51,18 @@
     border:solid 2px rgb(103, 109, 109);
     background-color: rgb(200, 200, 200);
     
+  }
+  .photo_upload_light{
+    height: 100%;
+    margin-left:auto;
+    margin-bottom: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(200, 200, 200);
   }
 
   /*Sub head section */

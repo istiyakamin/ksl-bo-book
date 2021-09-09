@@ -7,13 +7,9 @@
 }
 
 /* the first account title */
-.first_account_holder{
-    padding:5px 10px;
-}
 
-/*body of the first account section*/
-.first_account_body h4{
-    margin: 5px 0px;
+.form_body_section_border{
+    border-top: 2px  solid rgb(103, 109, 109);
 }
 
 /* the doted style for the inputs */

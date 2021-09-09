@@ -25,13 +25,21 @@
 .col-25{
     width: 25%;
 }
+.col-27{
+    width: 27%;
+}
 .col-30{
     width: 30%;
+}
+.col-31{
+    width: 31%;
 }
 .col-33{
     width: 33%;
 }
-
+.col-40{
+    width: 40%;
+}
 .col-45{
     width: 45%;
 }
@@ -46,6 +54,12 @@
 }
 .col-62{
     width: 62%;
+}
+.col-70{
+    width: 70%;
+}
+.col-69{
+    width: 69%;
 }
 .col-75{
     width: 75%;
@@ -81,6 +95,18 @@
 .m-10{
     margin: 10px;
 }
+.mt-5{
+    margin-top:5px;
+}
+.mt-10{
+    margin-top:10px;
+}
+.mb-5{
+    margin-bottom:5px;
+}
+.mb-10{
+    margin-bottom:10px;
+}
 .ml-5{
     margin-left: 5px;
 }
@@ -105,6 +131,18 @@
 }
 .p-10{
     padding:10px;
+}
+.pt-5{
+    padding-top:5px;
+}
+.pt-10{
+    padding-top:10px;
+}
+.pb-5{
+    padding-bottom:5px;
+}
+.pb-10{
+    padding-bottom:10px;
 }
 .pl-5{
     padding-left: 5px;
