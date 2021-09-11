@@ -186,6 +186,12 @@
 .col-133{
     width:133%;
 }
+.m-auto{
+    margin:auto
+}
+.mx-auto{
+    margin: 0 auto;
+}
 .m-2{
     margin:2px;
 }
@@ -323,4 +329,8 @@
 }
 .text-align-end{
     text-align: end;
+}
+
+.bg-red{
+    background-color: red;
 }
