@@ -8,6 +8,7 @@
     height:20px;
     background-color: black;
     color: white;
+    padding:1px;
   }
   .main_banner h4{
     font-family: title_mono;
@@ -29,9 +30,6 @@
 
   /* head section */
 
-  .logo_and_add{
-    width: 60%;
-  }
 
   .photo_upload{
     width: 15%;
@@ -60,15 +58,6 @@
 
     border:solid 2px rgb(103, 109, 109);
     background-color: rgb(200, 200, 200);
-  }
-  /*Sub head section */
-  .subheader{
-    display: flex;
-
-    margin-top:10px;
-  }
-  .subheader h4{
-    margin: 0;
   }
 
   .account_type_link_code{
