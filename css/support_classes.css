@@ -162,6 +162,9 @@
 .col-90{
     width:90%;
 }
+.col-91{
+    width:91%;
+}
 .col-92{
     width:92%;
 }
@@ -210,6 +213,7 @@
 .ml-auto{
     margin-left: auto;
 }
+
 .ml-2{
     margin-left: 2px;
 }
@@ -220,8 +224,14 @@
 .ml-10{
     margin-left:10px;
 }
+.ml-15{
+    margin-left: 15px;
+}
 .ml-20{
     margin-left: 20px;
+}
+.ml-30{
+    margin-left: 30px;
 }
 .ml-40{
     margin-left: 40px;

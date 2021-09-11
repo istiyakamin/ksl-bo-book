@@ -5,6 +5,11 @@
     background-color: rgb(200, 200, 200);
 }
 
+.photo_body_wrapper{
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(255,255,255);
+}
+
 /* the first account title */
 
 .form_body_section_border{
@@ -23,7 +28,9 @@
 table, td, th {
     border: 1px solid black;
   }
-  
+  .table_gray_back td{ 
+      background-color: rgb(200, 200, 200);
+  }
   th{
       background-color: black;
       color: white;

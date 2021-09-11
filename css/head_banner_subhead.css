@@ -60,6 +60,22 @@
     background-color: rgb(200, 200, 200);
   }
 
+  .nominee_photo_upload{
+    width: 140px;
+    height: 192px;
+    margin-bottom: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(200, 200, 200);
+  }
+
+  
   .account_type_link_code{
     margin-left: auto;
   }
