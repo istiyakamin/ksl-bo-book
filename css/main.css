@@ -29,6 +29,13 @@
     
   }
 
+  .font-style-general-article{
+    font-family: genaral-text-regular;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+  }
+
 /* font and styles for the main head text */
 
   .font-style-head-light{
