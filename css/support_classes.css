@@ -294,14 +294,14 @@
 .p-5{
     padding:5px;
 }
-.p-10{
-    padding:10px;
-}
-.pt-5{
-    padding-top:5px;
-}
 .pt-10{
     padding-top:10px;
+}
+.pt-20{
+    padding-top:20px;
+}
+.pt-30{
+    padding-top:30px;
 }
 .pb-5{
     padding-bottom:5px;
