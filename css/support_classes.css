@@ -315,11 +315,20 @@
 .pl-10{
     padding-left: 10px;
 }
+.pl-15{
+    padding-left: 15px;
+}
+.pl-20{
+    padding-left: 20px;
+}
 .pr-5{
     padding-right: 5px;
 }
 .pr-10{
     padding-right:10px;
+}
+.pr-20{
+    padding-right:20px;
 }
 .letter-space-2{
     letter-spacing: 2px;
