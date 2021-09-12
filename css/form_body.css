@@ -16,31 +16,43 @@
     border-top: 2px  solid rgb(103, 109, 109);
 }
 
-/* the doted style for the inputs */
-.input_dot{
-    background-color: inherit;
-    border: none;
-    border-bottom: 1px black dashed;
-    outline: none;
-    letter-spacing: 1px;
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-table, td, th {
-    border: 1px solid black;
-  }
-  .table_gray_back td{ 
+th{
+  background-color: black;
+  color: white;
+  border:1px solid white ;
+  border-left:none;
+}
+.table_gray_back  td{ 
       background-color: rgb(200, 200, 200);
+      border:1px solid black ;
   }
-  th{
-      background-color: black;
-      color: white;
-      border:1px solid white ;
-      border-left:none;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+
+
+
+.table-simple-border > table {
+  background-color: inherit;
+  border-collapse: separate;
+  
+}
+
+.table-simple-border  td {
+  border: 1px solid black;
+  border-collapse: separate;
+  background-color: rgb(200, 200, 200);
+}
+.table-simple-border  th {
+  border: 1px solid black;
+  border-collapse: separate;
+  color:black;
+  background-color: rgb(200, 200, 200);
+}
   
 *::placeholder {
     /* modern browser */

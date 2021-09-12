@@ -75,11 +75,30 @@
     padding-left: 5px;
     letter-spacing: 9px;
   }
-
+/* the doted style for the inputs */
+  .input_dot{
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px black dashed;
+    outline: none;
+    letter-spacing: 1px;
+  }
   .input_box_Account_numb{
     background-image: url(../resourses/icons/input.gif);    
     border: none;
     font-family: monospace;
+
+    width: 205px;
+    height: 15px;
+    background-size: 15px;
+    font-size: 10px;
+    padding-left: 5px;
+    letter-spacing: 9px;
+  }
+  .input_box_Account_numb_gray{
+    background-image: url(../resourses/icons/input.gif);    
+    font-family: monospace;
+    border: none;
 
     width: 205px;
     height: 15px;
