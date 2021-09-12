@@ -77,10 +77,14 @@
 
   .border-light{
     border:solid 2px rgb(103, 109, 109);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(200, 200, 200);
   
   }
-
+  .input_bg_gray{
+    border:none;
+    outline: none;
+    background-color: rgb(200, 200, 200);
+  }
   
   .account_type_link_code{
     margin-left: auto;
