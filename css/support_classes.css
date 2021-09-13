@@ -32,6 +32,9 @@
 .col-15{
     width: 15%;
 }
+.col-16{
+    width: 16%;
+}
 .col-18{
     width: 18%;
 }
@@ -52,6 +55,12 @@
 }
 .col-27{
     width: 27%;
+}
+.col-28{
+    width: 28%;
+}
+.col-29{
+    width: 29%;
 }
 .col-30{
     width: 30%;
@@ -80,6 +89,12 @@
 .col-41{
     width: 41%;
 }
+.col-43{
+    width: 43%;
+}
+.col-44{
+    width: 44%;
+}
 .col-45{
     width: 45%;
 }
@@ -95,6 +110,9 @@
 .col-51{
     width:51%;
 }
+.col-53{
+    width:53%;
+}
 .col-52{
     width:52%;
 }
@@ -103,6 +121,9 @@
 }
 .col-57{
     width:57%;
+}
+.col-58{
+    width: 58%;
 }
 .col-59{
     width: 59%;
@@ -234,6 +255,9 @@
 .mt-10{
     margin-top:10px;
 }
+.mt-15{
+    margin-top:15px;
+}
 .mt-20{
     margin-top:20px;
 }
@@ -242,6 +266,9 @@
 }
 .mt-40{
     margin-top:40px;
+}
+.mb-2{
+    margin-bottom:5px;
 }
 .mb-5{
     margin-bottom:5px;
