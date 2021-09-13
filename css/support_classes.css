@@ -1,0 +1,428 @@
+
+.width-full{
+    width: 100%;
+    display: flex;
+
+}
+
+.col-5{
+    width: 5%;
+}
+.col-8{
+    width: 8%;
+}
+.col-7{
+    width: 7%;
+}
+.col-8{
+    width: 8%;
+}
+.col-9{
+    width: 9%;
+}
+.col-10{
+    width:10%;
+}
+.col-12{
+    width: 12%;
+}
+.col-13{
+    width: 13%;
+}
+.col-15{
+    width: 15%;
+}
+.col-16{
+    width: 16%;
+}
+.col-18{
+    width: 18%;
+}
+.col-17{
+    width: 17%;
+}
+.col-20{
+    width: 20%;
+}
+.col-22{
+    width: 22%;
+}
+.col-23{
+    width: 23%;
+}
+.col-25{
+    width: 25%;
+}
+.col-27{
+    width: 27%;
+}
+.col-28{
+    width: 28%;
+}
+.col-29{
+    width: 29%;
+}
+.col-30{
+    width: 30%;
+}
+.col-31{
+    width: 31%;
+}
+.col-32{
+    width: 32%;
+}
+.col-33{
+    width: 33%;
+}
+.col-35{
+    width: 35%;
+}
+.col-38{
+    width: 38%;
+}
+.col-39{
+    width: 39%;
+}
+.col-40{
+    width: 40%;
+}
+.col-41{
+    width: 41%;
+}
+.col-43{
+    width: 43%;
+}
+.col-44{
+    width: 44%;
+}
+.col-45{
+    width: 45%;
+}
+.col-47{
+    width: 47%;
+}
+.col-49{
+    width: 49%;
+}
+.col-50{
+    width: 50%;
+}
+.col-51{
+    width:51%;
+}
+.col-53{
+    width:53%;
+}
+.col-52{
+    width:52%;
+}
+.col-55{
+    width:55%;
+}
+.col-57{
+    width:57%;
+}
+.col-58{
+    width: 58%;
+}
+.col-59{
+    width: 59%;
+}
+.col-60{
+    width: 60%;
+}
+.col-61{
+    width: 61%;
+}
+.col-62{
+    width: 62%;
+}
+.col-63{
+    width: 63%;
+}
+.col-65{
+    width: 65%;
+}
+.col-66{
+    width: 66%;
+}
+.col-67{
+    width: 67%;
+}
+.col-70{
+    width: 70%;
+}
+.col-72{
+    width: 72%;
+}
+.col-73{
+    width: 73%;
+}
+.col-75{
+    width: 75%;
+}
+.col-77{
+    width: 77%;
+}
+.col-78{
+    width: 78%;
+}
+.col-79{
+    width: 79%;
+}
+.col-69{
+    width: 69%;
+}
+.col-68{
+    width: 68%;
+}
+.col-75{
+    width: 75%;
+}
+.col-80{
+    width: 80%;
+}
+
+.col-82{
+    width:82%;
+}
+.col-83{
+    width:83%;
+}
+.col-84{
+    width: 84%;
+}
+.col-85{
+    width: 85%;
+}
+.col-87{
+    width: 87%;
+}
+.col-88{
+    width: 88%;
+}
+.col-89{
+    width: 89%;
+}
+.col-90{
+    width:90%;
+}
+.col-91{
+    width:91%;
+}
+.col-92{
+    width:92%;
+}
+.col-93{
+    width:93%;
+}
+.col-95{
+    width:95%;
+}
+.col-97{
+    width: 97%;
+}
+.col-99{
+    width: 99%;
+}
+.col-100{
+    width:100%;
+}
+.col-133{
+    width:133%;
+}
+.m-auto{
+    margin:auto
+}
+.mx-auto{
+    margin: 0 auto;
+}
+.m-2{
+    margin:2px;
+}
+.m-5{
+    margin: 5px;
+}
+.m-10{
+    margin: 10px;
+}
+.mt-2{
+    margin-top: 2px;
+}
+.mt-5{
+    margin-top:5px;
+}
+.mt-10{
+    margin-top:10px;
+}
+.mt-15{
+    margin-top:15px;
+}
+.mt-20{
+    margin-top:20px;
+}
+.mt-30{
+    margin-top:30px;
+}
+.mt-40{
+    margin-top:40px;
+}
+.mb-2{
+    margin-bottom:5px;
+}
+.mb-5{
+    margin-bottom:5px;
+}
+.mb-10{
+    margin-bottom:10px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+.ml-2{
+    margin-left: 2px;
+}
+
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left:10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.ml-40{
+    margin-left: 40px;
+}
+
+.mr-auto{
+    margin-right:auto;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mr-10{
+    margin-right:10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mr-30{
+    margin-right: 30px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.p-5{
+    padding:5px;
+}
+.p-10{
+    padding:10px;
+}
+.p-20{
+    padding:20px;
+}
+.pt-10{
+    padding-top:10px;
+}
+.pt-20{
+    padding-top:20px;
+}
+.pt-30{
+    padding-top:30px;
+}
+.pb-5{
+    padding-bottom:5px;
+}
+.pb-10{
+    padding-bottom:10px;
+}
+.pl-5{
+    padding-left: 5px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pr-5{
+    padding-right: 5px;
+}
+.pr-10{
+    padding-right:10px;
+}
+.pr-20{
+    padding-right:20px;
+}
+.letter-space-2{
+    letter-spacing: 2px;
+}
+
+.center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.item-align{
+    text-align:center;
+}
+.item-align-end{
+    align-items: flex-end;
+}
+  .justify_space_between{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+  }
+
+  .justify_space_end{
+      display: flex;
+      width: 100%;
+      justify-content: end;
+  }
+.border-1-black{
+    border:1px solid black;
+}
+.border_botton{
+    border:none;
+    border-bottom: 2px solid black;
+}
+.border-left{
+    border: none;    
+    border-left:solid 2px rgb(103, 109, 109);
+
+}
+
+.postion-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.position-relative{
+    position:relative;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-end{
+    text-align: end;
+}
+
+.bg-red{
+    background-color: red;
+}

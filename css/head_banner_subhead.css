@@ -1,0 +1,109 @@
+
+  .main_banner{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:20px;
+    background-color: black;
+    color: white;
+    padding:1px;
+  }
+  .main_banner h4{
+    font-family: title_mono;
+    font-size: 1em;
+  }
+
+  .subbanner{
+    margin: 0;
+    font-size: 15px;
+  }
+  .subbanner p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  /* head section */
+
+
+  .photo_upload{
+    width: 15%;
+    height: 100px;
+    margin-left:auto;
+    margin-bottom: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(200, 200, 200);
+    
+  }
+  .photo_upload_light{
+    height: 100%;
+    margin-left:auto;
+    margin-bottom: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(200, 200, 200);
+  }
+
+  .nominee_photo_upload{
+    width: 140px;
+    height: 192px;
+    margin-bottom: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(200, 200, 200);
+  }
+
+  .border-light{
+    border:solid 2px rgb(103, 109, 109);
+    background-color: rgb(255, 255, 255);
+  
+  }
+  .input_bg_gray{
+    border:none;
+    outline: none;
+    background-color: rgb(200, 200, 200);
+  }
+  .input_bg_gray_light{
+    border:none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .account_type_link_code{
+    margin-left: auto;
+  }
+
+  .account_type{
+    display: flex;
+  }
+  .account_type div{
+    margin: 0px 5px;
+    font-weight: bold;
+  }
+
+  .cash{
+    margin-right: 5px;
+  }
